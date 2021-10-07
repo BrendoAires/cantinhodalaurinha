@@ -71,6 +71,7 @@ nav a:hover{
         font-size: 20px;    
     }
     .logo{
+        padding-top: 15px;
         font-size: 1.4em;
         word-spacing: 10px;
         letter-spacing: 10px;
