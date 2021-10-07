@@ -1,3 +1,5 @@
+@import url(header.css);
+@import url(footer.css);
 :root{
     --cor1: #9b7acb;
     --cor2: #f76ead;
@@ -10,7 +12,13 @@
 @font-face {
     font-family: littlemiss;
     src: url(../fonts/Littlemisspriss-LPlW.ttf);
+    
 }
+@font-face {
+    font-family: HelloDoodles;
+    src: url(../fonts/HelloDoodles.ttf);
+}
+
 
 /*Noto sans display*/
 
@@ -21,12 +29,12 @@
     max-width: 100%;
     box-sizing: border-box;
 }
-h1{
-    font-size: 6em;
-    font-family: littlemiss;
-    word-spacing: 25px;
-    letter-spacing: 5px;
-    color: var(--cor5);
+
+.h1{
+    font-family: HelloDoodles;
+    font-size: 50px;
+    color:var(--cor3);
+    
 }
 .main{
     background-image: url("../img/Background1.jpg");
@@ -34,52 +42,6 @@ h1{
     opacity: 0.3;
     height:100vh;
     
-}
-header{
-    height: 200px;
-    width:100%;  
-    background: #f76ead; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    font-family: littlemiss;
- 
-    
-}
-nav{
-    display: flex;
-    justify-content:center;
-}
-nav ul{
-    list-style: none;
-    
-}
-nav ul li{
-    display: inline;
-    
-    
-    
-}
-
-nav ul li:hover{
- 
-    
-}
-nav a{
-    text-decoration: none;
-    padding: 10px;
-    color: white;
-    font-size: 1.5em;
-    font-weight: 500;
-    letter-spacing: 5px;
-}
-nav a:hover{
-    padding: 10px;
-    color: var(--cor5);
-    background: var(--cor4);
-    border-radius: 20px;
-    transition: 1.5s;
 }
 
 
