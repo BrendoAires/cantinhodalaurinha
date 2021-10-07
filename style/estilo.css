@@ -1,0 +1,89 @@
+:root{
+    --cor1: #9b7acb;
+    --cor2: #f76ead;
+    --cor3: #f29748;
+    --cor4: #f2dc48;
+    --cor5: #48f2e7;
+    
+}
+
+@font-face {
+    font-family: littlemiss;
+    src: url(../fonts/Littlemisspriss-LPlW.ttf);
+}
+
+/*Noto sans display*/
+
+*{
+    margin: 0 auto;
+    font-size: 20px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 6em;
+    font-family: littlemiss;
+    word-spacing: 25px;
+    letter-spacing: 5px;
+    color: var(--cor5);
+}
+.main{
+    background-image: url("../img/Background1.jpg");
+    position: absolute;
+    opacity: 0.3;
+    height:100vh;
+    
+}
+header{
+    height: 200px;
+    width:100%;  
+    background: #f76ead; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: littlemiss;
+ 
+    
+}
+nav{
+    display: flex;
+    justify-content:center;
+}
+nav ul{
+    list-style: none;
+    
+}
+nav ul li{
+    display: inline;
+    
+    
+    
+}
+
+nav ul li:hover{
+ 
+    
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+nav a:hover{
+    padding: 10px;
+    color: var(--cor5);
+    background: var(--cor4);
+    border-radius: 20px;
+    transition: 1.5s;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+}
