@@ -1,3 +1,4 @@
+
 :root{
     --cor1: #9b7acb;
     --cor2: #f76ead;
@@ -14,10 +15,19 @@ header{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    font-family: littlemiss;
+    font-family: Carissa;
+    font-weight: 200;
+    /*font-family: littlemiss;*/
  
     
 }
+.h1{
+    font-family: HelloDoodles;
+    font-size: 50px;
+    color: var(--cor1);
+    
+}
+
 nav{
     width: 100%;
     display: flex;
@@ -54,21 +64,30 @@ nav a:hover{
     word-spacing: 10px;
     letter-spacing: 10px;
 }
-.logo a{
-    text-decoration: none;
-}
-@media(max-width:320px){
-   .logo{
-       font-size: 1.8em;
-       letter-spacing: 4px;
-   }
-  
-   nav a{
-    padding: 2px;
-    font-size: 0.9em;
-    }
+
+@media(max-width:376px){
     .h1{
-       
-        font-size: 2px;   
+        
+        font-size: 20px;    
     }
+    .logo{
+        font-size: 1.4em;
+        word-spacing: 10px;
+        letter-spacing: 10px;
+    }
+    nav a{
+        
+        padding: 2px;
+        color: white;
+        font-size: 0.5em;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    header{
+        height: 100px;
+    }
+}
+
+@media(max-width:425px){
+
 }
