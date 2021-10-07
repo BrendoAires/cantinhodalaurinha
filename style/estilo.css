@@ -3,13 +3,16 @@
 
 :root{
     --cor1: #9b7acb;
-    --cor2: #f76ead;
+    --cor2: #e87bad;
     --cor3: #f29748;
     --cor4: #f2dc48;
-    --cor5: #48f2e7;
+    --cor5: #7cd5cf;
     
 }
-
+@font-face {
+    font-family: Emilycandy;
+    src: url(../fonts/EmilysCandy.ttf);
+}
 @font-face {
     font-family: littlemiss;
     src: url(../fonts/Littlemisspriss-LPlW.ttf); 

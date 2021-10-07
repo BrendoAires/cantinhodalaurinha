@@ -1,22 +1,16 @@
-
-:root{
-    --cor1: #9b7acb;
-    --cor2: #f76ead;
-    --cor3: #f29748;
-    --cor4: #f2dc48;
-    --cor5: #48f2e7;
-    
-}
 header{
     height: 200px;
     width:100%;  
-    background: #f76ead; 
+    background: var(--cor2); 
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     font-family: Carissa;
     font-weight: 200;
+    border-bottom: 5px solid black;
+    border-bottom-style:dotted;
+
     /*font-family: littlemiss;*/
  
     
@@ -25,7 +19,7 @@ header{
 .h1{
     font-family: HelloDoodles;
     font-size: 50px;
-    color: var(--cor1);
+    color: black;
     
 }
 
@@ -47,7 +41,7 @@ nav a{
     
     color: white;
     font-size: 1.5em;
-    font-weight: 500;
+    font-weight: 300;
     letter-spacing: 5px;
 }
 nav a:hover{
@@ -60,10 +54,38 @@ nav a:hover{
 }
 
 .logo{
-    font-size: 6em;
+    font-family: EmilyCandy;
+    font-size: 4em;
     color: var(--cor4);
     word-spacing: 10px;
     letter-spacing: 10px;
+}
+
+@media(max-width:768px){
+    header{
+        height: 150px;
+    }
+    .h1{
+        
+        font-size: 40px;    
+    }
+    .logo{
+
+        font-size: 2.5em;
+      
+        
+    }
+    ul{
+        padding: 0;
+    }
+    nav a{
+        
+        padding: 5px;
+        color: white;
+        font-size: 1.1em;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
 }
 
 @media(max-width:600px){
@@ -83,7 +105,7 @@ nav a:hover{
     }
     
     ul{
-        padding: 0;
+        padding: 10px 0 0 0 ;
     }
     nav a{
         
