@@ -46,9 +46,9 @@
 .main{
     background-image: url("../img/Background1.jpg");
     position: absolute;
-    opacity: 0.3;
+    opacity: 0.2;
     height:100vh;
-    zoom: 1;
+    
     
     
 }
