@@ -1,0 +1,33 @@
+main{
+    display: flex;
+    flex-direction: row;
+}
+section{
+    height: 500px;
+    width: 50%;
+    background: var(--cor3);
+    
+    opacity: 0.9;
+}
+aside{
+    height: 500px;
+    width: 30%;
+  
+    background: var(--cor5);
+    opacity: 0.9;
+}
+@media(max-width:320px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    section{
+        width: 320px;
+        justify-content: center;
+        margin: 0;
+
+
+    }
+}

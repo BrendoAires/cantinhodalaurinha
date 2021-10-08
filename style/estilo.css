@@ -1,5 +1,6 @@
 @import url(header.css);
 @import url(footer.css);
+@import url(main.css);
 
 :root{
     --cor1: #9b7acb;
@@ -45,19 +46,17 @@
     box-sizing: border-box;
 }
 
-
-.main{
-    background-image: url("../img/Background1.jpg");
-    position: absolute;
-    opacity: 0.2;
-    height:100vh;
-    
-    
-    
-}
-
-
 main{
+    background-image: url("../img/Background1.png") ;
+      
+    height:75vh;  
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 5px 0 5px;
+    width: 100%;
 }
