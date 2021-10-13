@@ -4,16 +4,22 @@ main{
 }
 section{
     height: 500px;
-    width: 50%;
+    width: 60%;
+    margin:0;
     background: var(--cor3);
     
     opacity: 0.9;
 }
+.esquerda{
+    height: 500px;
+    width:20%;
+    background:pink;
+}
 aside{
     height: 500px;
-    width: 30%;
+    width: 20%;
   
-    background: var(--cor5);
+    background: white;
     opacity: 0.9;
 }
 @media(max-width:320px){
