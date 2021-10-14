@@ -27,11 +27,12 @@ background: linear-gradient(23deg, rgba(161,127,189,1) 4%, rgba(191,94,139,1) 68
 }
 span{
     font-size: 0.8em;
-    color:white;
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 a{
     margin-top: 15px;
+   color:white;
     text-decoration: none;
    
 }
@@ -44,17 +45,13 @@ input{
     height: 1.5em;
     
 }
-label{
-    color:white;
-    margin-right: 5px;
-}
+
 button{
     width: 5%;
     border-radius: 30px;
     border:none;
     height: 1.5em;
-    background: rgb(161,127,189);
-background: linear-gradient(23deg, rgba(161,127,189,1) 4%, rgba(191,94,139,1) 68%);
+    background:white;
 }
 button:hover{
     background: purple;

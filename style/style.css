@@ -84,7 +84,29 @@ main{
         font-size: 0.8em;
     }
     footer input#nome{
+        width:80%;
+        height: 1em;
+    }
+    footer input{
+        height: 1em;
+        width:80%;
+        margin-top: 2px;
+    }
+    footer button{
+        margin-top: 2px;
+        height: 1.1em;
         width:20%;
+    }
+    
+
+    footer form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer a{
+        margin-top: 5px;
+        font-size: 0.7em;
     }
    
 }
