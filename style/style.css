@@ -90,6 +90,8 @@ aside, .principal{
     aside{
         display: flex;
         flex-direction: column;
+        height: 25em;
+        margin-bottom: 5em;
     }
     aside, p, footer input, footer label{
         font-size: 0.8em;
