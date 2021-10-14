@@ -78,7 +78,7 @@ aside, .principal{
 @media(max-width:600px){
    
     main{
-        
+        padding-top:60px ;
         flex-direction: column;
         width: 100%;
     }
