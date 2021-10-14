@@ -2,24 +2,26 @@ main{
     display: flex;
     flex-direction: row;
 }
-section{
+.principal{
+
     height: 500px;
     width: 60%;
-    margin:0;
-    background: var(--cor3);
+    margin:5px 0 0 0 ;
+    border-radius: 5px;
+    background: white;
     
     opacity: 0.9;
 }
 .esquerda{
     height: 500px;
     width:20%;
-    background:pink;
+
 }
 aside{
     height: 500px;
     width: 20%;
   
-    background: white;
+    
     opacity: 0.9;
 }
 @media(max-width:320px){
