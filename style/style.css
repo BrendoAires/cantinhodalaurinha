@@ -64,7 +64,7 @@ main{
     width: 100%;
 }
 
-@media(max-width:426px){
+@media(max-width:600px){
    
     .main{
         
