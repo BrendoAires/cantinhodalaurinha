@@ -51,7 +51,8 @@ button{
     border-radius: 30px;
     border:none;
     height: 1.5em;
-    background:white;
+    background: rgb(161,127,189);
+background: linear-gradient(23deg, rgba(161,127,189,1) 4%, rgba(223,22,168,1) 68%);
 }
 button:hover{
     background: purple;
