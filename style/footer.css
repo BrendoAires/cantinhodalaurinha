@@ -1,8 +1,12 @@
 footer{
     display: flex;
     flex-direction: column;
+  
     justify-content: center;
-    
+    align-items: center;
+    text-align: center;
+    align-content: center;
+
     height: 100px;
     width: 100%;
     background: purple;
@@ -15,15 +19,17 @@ footer{
     align-items: center;
     color: white;
 }
-.container-form-feed{
-    display: flex;
-    flex-direction: column;
+.feed{
+    
     
 
 }
+
 input{
+    padding: 5px;
     width:30%;
     border-radius: 30px;
+    
 }
 button{
     width: 5%;
