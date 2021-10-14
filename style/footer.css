@@ -9,7 +9,8 @@ footer{
 
     height: 100px;
     width: 100%;
-    background: purple;
+    background: rgb(161,127,189);
+background: linear-gradient(23deg, rgba(161,127,189,1) 4%, rgba(191,94,139,1) 68%);
     font-family: EmilyCandy;
     
     
@@ -49,6 +50,8 @@ button{
     border-radius: 30px;
     border:none;
     height: 1.5em;
+    background: rgb(161,127,189);
+background: linear-gradient(23deg, rgba(161,127,189,1) 4%, rgba(191,94,139,1) 68%);
 }
 button:hover{
     background: purple;
