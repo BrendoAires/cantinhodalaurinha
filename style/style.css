@@ -14,6 +14,7 @@
     
 }
 @font-face {
+    
     font-family: Emilycandy;
     src: url(../fonts/EmilysCandy.ttf);
 }
@@ -50,13 +51,23 @@
 }
 
 main{
+    
     background-image: url("../img/Background1.png"); 
-    height:75vh;  
+   
+    align-items: center;
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
+    justify-content: center;
+  
     
 }
+aside{
+    height: 100vh;
+}
+aside, .principal{
+    background: var(--cor5);
+}
+
 .container{
     display: flex;
     flex-direction: row;
@@ -66,7 +77,7 @@ main{
 
 @media(max-width:600px){
    
-    .main{
+    main{
         
         flex-direction: column;
         width: 100%;
@@ -107,6 +118,9 @@ main{
     footer a{
         margin-top: 5px;
         font-size: 0.7em;
+    }
+    aside{
+        width: 90%;
     }
    
 }

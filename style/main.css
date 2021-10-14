@@ -2,23 +2,19 @@
 .principal{
    
     padding:10px;
-    height: 500px;
-    width: 80%;
-    margin:40px 10px 0 5px ;
-    border-radius: 5px;
     
-    background: white;
+    width: 60%;
+    margin:40px 10px 0 0px ;
+    border-radius: 5px;
+    border: 1px solid red;
+    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
     opacity: 0.8;
     
 }
 
-.esquerda{
-    height: 500px;
-    width:20%;
 
-}
 aside, p{
     font-size: 0.8em;
 }
