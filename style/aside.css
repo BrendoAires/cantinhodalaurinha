@@ -10,7 +10,8 @@ aside img{
 }
 
 aside{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
     text-align: center;
     display: flex;
     flex-direction: column;

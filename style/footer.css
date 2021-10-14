@@ -12,25 +12,46 @@ footer{
     background: purple;
     font-family: EmilyCandy;
     
+    
 }
 .container{
     width: 100%;
     justify-content: center;
     align-items: center;
     color: white;
+    
 }
-
-.coyright{
-    font-size: 10px;
+span{
+    font-size: 0.8em;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+a{
+    margin-top: 15px;
+    text-decoration: none;
+   
+}
 input{
-    padding: 5px;
+    padding: 10px;
     width:30%;
     border-radius: 30px;
+    border:none;
+    outline: none;
+    height: 1.5em;
     
+}
+label{
+    color:white;
+    margin-right: 5px;
 }
 button{
     width: 5%;
     border-radius: 30px;
+    border:none;
+    height: 1.5em;
+}
+button:hover{
+    background: purple;
+    color:yellow;
+    transition: 0.4s ease-out;
 }
