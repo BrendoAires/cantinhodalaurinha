@@ -19,21 +19,27 @@ main{
     width:20%;
 
 }
-.foto{
-    width: 70%;
-    height: 300px;
+aside img{
+    width: 50%;
+   
     border: 1px solid black;
+    opacity:1;
+    margin-bottom: 30px;
 
 }
+
 aside{
+    display: flex;
+    flex-direction: column;
     border-radius: 5px;
     margin: 10px 0 0 5px;
     height: 500px;
     width: 25%;
     background: white;
+    
   
     
-    opacity: 0.8;
+    opacity: 0.95;
 }
 @media(max-width:320px){
     .container{
