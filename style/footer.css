@@ -13,6 +13,9 @@ footer{
 background: linear-gradient(23deg, rgba(161,127,189,1) 4%, rgba(191,94,139,1) 68%);
     font-family: EmilyCandy;
     
+    bottom: 0;
+    position: absolute;
+    
     
 }
 .container{

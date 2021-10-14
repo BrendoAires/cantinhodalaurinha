@@ -55,10 +55,35 @@ main{
     display: flex;
     flex-direction: row;
     margin: 0 auto;
+    
 }
 .container{
     display: flex;
     flex-direction: row;
     margin: 0 5px 0 0;
     width: 100%;
+}
+
+@media(max-width:426px){
+   
+    .main{
+        
+        flex-direction: row;
+        width: 100%;
+    }
+    .principal{
+        width: 100%;
+    }
+    
+    aside{
+        display: flex;
+        flex-direction: column;
+    }
+    aside, p, footer input, footer label{
+        font-size: 0.8em;
+    }
+    footer input#nome{
+        width:20%;
+    }
+   
 }

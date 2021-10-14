@@ -1,9 +1,6 @@
-main{
-    display: flex;
-    flex-direction: row;
-}
-.principal{
 
+.principal{
+   
     padding:10px;
     height: 500px;
     width: 60%;
@@ -14,25 +11,15 @@ main{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
     opacity: 0.8;
+    margin-bottom: 100px;
 }
+
 .esquerda{
     height: 500px;
     width:20%;
 
 }
-
-@media(max-width:320px){
-    .container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-    section{
-        width: 320px;
-        justify-content: center;
-        margin: 0;
-
-
-    }
+aside, p{
+    font-size: 0.8em;
 }
+
