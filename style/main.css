@@ -7,8 +7,9 @@ main{
     padding:10px;
     height: 500px;
     width: 60%;
-    margin:10px 10px 0 5px ;
+    margin:40px 10px 0 5px ;
     border-radius: 5px;
+    
     background: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
@@ -19,28 +20,7 @@ main{
     width:20%;
 
 }
-aside img{
-    width: 50%;
-   
-    border: 1px solid black;
-    opacity:1;
-    margin-bottom: 30px;
 
-}
-
-aside{
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-    margin: 10px 0 0 5px;
-    height: 500px;
-    width: 25%;
-    background: white;
-    
-  
-    
-    opacity: 0.95;
-}
 @media(max-width:320px){
     .container{
         display: flex;

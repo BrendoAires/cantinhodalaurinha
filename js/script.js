@@ -1,4 +1,4 @@
-
 function enviar(){
-    alert("Email cadastrado com sucesso")
+    
+    alert("Dados cadastrados")
 }
