@@ -78,7 +78,7 @@ aside, .principal{
 @media(max-width:600px){
    
     main{
-        padding-top:60px ;
+        padding:3em 0 1em 0;
         flex-direction: column;
         width: 100%;
     }
@@ -91,7 +91,7 @@ aside, .principal{
         display: flex;
         flex-direction: column;
         height: 25em;
-        margin-bottom: 5em;
+        margin-bottom: 6em;
     }
     aside, p, footer input, footer label{
         font-size: 0.8em;
