@@ -54,7 +54,7 @@ main{
     
     background-image: url("../img/Background1.png"); 
    
-    align-items: center;
+   
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -125,4 +125,50 @@ aside, .principal{
         width: 90%;
     }
    
+}
+@media(min-width:600px){
+    main{
+        padding:3em 0 1em 0;
+        flex-direction: column;
+        width: 100%;
+    }
+    aside{
+        width: 60%;
+    }
+}
+
+@media(min-width:768px){
+    body{
+        height: 100vh;
+    }
+    main{
+        flex-direction: row;
+    }
+    .principal{
+        width: 70%;
+        margin: 0 5px 0 5px;
+    }
+    aside{
+        width: 30%;
+        margin: 0 5px 0 5px;
+        height:100vh;
+        
+    }
+}
+@media(min-width:1024px){
+    body{
+        height: 100vh;
+    }
+    main{
+        justify-content: flex-end;
+    }
+    .principal{
+        margin-right: 6em;
+        width: 60em;
+        justify-content: center;
+    }
+    aside{
+        
+        width: 20%;
+    }
 }

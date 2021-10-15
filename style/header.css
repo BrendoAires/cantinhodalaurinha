@@ -1,5 +1,5 @@
 header{
-    height: 200px;
+    height: 10em;
     width:100%;  
     background: rgb(161,127,189);
 background: linear-gradient(23deg, rgba(161,127,189,1) 4%, rgba(191,94,139,1) 68%);
@@ -19,7 +19,7 @@ background: linear-gradient(23deg, rgba(161,127,189,1) 4%, rgba(191,94,139,1) 68
 
 .h1{
     font-family: HelloDoodles;
-    font-size: 50px;
+    font-size: 2.5;
     color: black;
     
 }
@@ -62,13 +62,13 @@ nav a:hover{
     letter-spacing: 10px;
 }
 
-@media(max-width:768px){
+@media(min-width:600px){
     header{
-        height: 150px;
+        height: 7.5em;
     }
     .h1{
         
-        font-size: 40px;    
+        font-size: 2em;    
     }
     header .logo{
         font-size: 1.9em;
@@ -77,6 +77,9 @@ nav a:hover{
     }
     ul{
         padding: 0;
+    }
+    nav{
+        margin-top: 1em;
     }
     nav a{
         
@@ -90,7 +93,7 @@ nav a:hover{
 
 @media(max-width:600px){
     header{
-        height: 150px;
+        height: 7.5em;
     }
     .h1{
         
