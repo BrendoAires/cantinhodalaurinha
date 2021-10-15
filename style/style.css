@@ -71,7 +71,7 @@ aside, .principal{
 .container{
     display: flex;
     flex-direction: row;
-    margin: 0 5px 0 0;
+   
     width: 100%;
 }
 
@@ -124,6 +124,11 @@ aside, .principal{
     aside{
         width: 90%;
     }
+    span{
+        font-size: 0.8em;
+        margin-top: 0.3em;
+        
+    }
    
 }
 @media(min-width:600px){
@@ -134,6 +139,11 @@ aside, .principal{
     }
     aside{
         width: 60%;
+    }
+    span{
+        font-size: 0.8em;
+        margin-top: 0.3em;
+        
     }
 }
 
@@ -147,6 +157,11 @@ aside, .principal{
     .principal{
         width: 70%;
         margin: 0 5px 0 5px;
+    }
+    span{
+        font-size: 0.8em;
+        margin-top: 0.3em;
+        
     }
     aside{
         width: 30%;
@@ -171,4 +186,10 @@ aside, .principal{
         
         width: 20%;
     }
+    span{
+        font-size: 0.8em;
+        margin-top: 0.3em;
+        
+    }
+    
 }
